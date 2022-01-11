@@ -21,12 +21,12 @@ export default function Navbar(props) {
                         </li>
 
                     </ul>
-                    <div className="d-flex">
+                    {/* <div className="d-flex">
                         <div className="bg-primary mx-3" onClick={()=>{props.toggleMode('primary')}} style={{height: '20px', width: '20px', cursor: 'pointer'}}></div>
                         <div className="bg-danger mx-3" onClick={()=>{props.toggleMode('danger')}} style={{height: '20px', width: '20px', cursor: 'pointer'}}></div>
                         <div className="bg-success mx-3" onClick={()=>{props.toggleMode('success')}} style={{height: '20px', width: '20px', cursor: 'pointer'}}></div>
                         <div className="bg-warning mx-3" onClick={()=>{props.toggleMode('warning')}} style={{height: '20px', width: '20px', cursor: 'pointer'}}></div>
-                    </div>
+                    </div> */}
                     {/* <form className="d-flex">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                         <button className="btn btn-primary " type="submit">Search</button>
